@@ -8,7 +8,7 @@
 	<artifactId>open-bootcamp-spring-ej2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>open-bootcamp-spring-ej2</name>
-	<description>Ejercicio 1 open-bootcamp</description>
+	<description>Ejercicio 2 open-bootcamp</description>
 	
 	<properties>
 		<java.version>17</java.version>
