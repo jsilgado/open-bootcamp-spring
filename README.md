@@ -18,12 +18,39 @@
 1. Crear un proyecto Spring Boot con las dependencias: Spring Data JPA, H2
 
 En caso de querer que la base de datos se guarde en disco habrá que añadir las siguientes propiedades en el archivo application.properties:
-spring.jpa.show-sql=true
-spring.datasource.url=jdbc:h2:file:C:/data/sample
-spring.datasource.username=sa
-spring.datasource.password=
-spring.datasource.driverClassName=org.h2.Driver
-#spring.jpa.hibernate.ddl-auto=create
-spring.jpa.hibernate.ddl-auto=update
-spring.sql.init.mode=always
-spring.jpa.defer-datasource-initialization=true
+*spring.jpa.show-sql=true
+*spring.datasource.url=jdbc:h2:file:C:/data/sample
+*spring.datasource.username=sa
+*spring.datasource.password=
+*spring.datasource.driverClassName=org.h2.Driver
+*#spring.jpa.hibernate.ddl-auto=create
+*spring.jpa.hibernate.ddl-auto=update
+*spring.sql.init.mode=always
+*spring.jpa.defer-datasource-initialization=true
+
+
+
+
+### Ejercicio 4
+
+1. Crear un proyecto Spring Boot con las dependencias:
+	*H2
+	*Spring Data JPA
+	*Spring Web
+	*Spring Boot dev tools
+2. Crear una clase HelloController que sea un controlador REST. Dentro de la clase crear un método que retorne un saludo. Probar que retorna el saludo desde el navegador y desde Postman.
+
+### Ejercicio 5
+
+1. Dentro de la misma app crear las clases necesarias para trabajar con "ordenadores":
+	*Laptop (entidad)
+	*LaptopRepository (repositorio)
+	*LaptopController (controlador)
+	*Desde LaptopController crear un método que devuelva una lista de objetos Laptop.
+2. Probar que funciona desde Postman.
+3. Los objetos Laptop se pueden insertar desde el método main de la clase principal.
+
+### Ejercicio 6
+
+1. Crear un método en LaptopController que reciba un objeto Laptop enviado en formato JSON desde Postman y persistirlo en la base de datos.
+2. Comprobar que al obtener de nuevo los laptops aparece el nuevo ordenador creado.
