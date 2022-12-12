@@ -69,7 +69,7 @@ En caso de querer que la base de datos se guarde en disco habrá que añadir las
 	
 ### Ejercicio 8
 
-1. Implementar swagger sobre el API REST de Laptop y verificar que funciona en la URL: http://localhost:8081/swagger-ui/
+1. Implementar swagger sobre el API REST de Laptop y verificar que funciona en la URL: http://localhost:8081/swagger-ui/index.html
 
 ### Ejercicio 9
 
