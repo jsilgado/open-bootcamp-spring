@@ -54,3 +54,23 @@ En caso de querer que la base de datos se guarde en disco habrá que añadir las
 
 1. Crear un método en LaptopController que reciba un objeto Laptop enviado en formato JSON desde Postman y persistirlo en la base de datos.
 2. Comprobar que al obtener de nuevo los laptops aparece el nuevo ordenador creado.
+
+### Ejercicio 7
+
+1. Implementar los métodos CRUD en el API REST de Laptop creada en ejercicios anteriores.
+	Los métodos CRUD:
+	* findAll()
+	* findOneById()
+    * create()
+	* update()
+	* delete()
+	* deleteAll()
+	
+	
+### Ejercicio 8
+
+1. Implementar swagger sobre el API REST de Laptop y verificar que funciona en la URL: http://localhost:8081/swagger-ui/
+
+### Ejercicio 9
+
+1. Crear casos de test para el controlador de Laptop desde Spring Boot. Con click derecho dentro del código de la clase LaptopController utilizar la opción Generate > Test para crear la clase con todos los tests unitarios e implementarlos siguiente el proceso visto en clase.
